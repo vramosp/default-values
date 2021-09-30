@@ -192,7 +192,16 @@ sections:
       - Lorem ipsum
 
       - dolor sit amet
-    actions: []
+    actions:
+      - elementId: ''
+        label: lorem-ipsum
+        altText: lorem-ipsum
+        url: '#'
+        showIcon: false
+        icon: arrowLeft
+        iconPosition: right
+        style: secondary
+        type: Button
     feature:
       idAttr: lorem-ipsum
       action: lorem-ipsum
