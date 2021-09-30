@@ -112,56 +112,6 @@ sections:
       Sed ut perspiciatis undeomnis iste natus error sit voluptatem accusantium
       doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
       inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-  - elementId: ''
-    colors: colors-a
-    width: wide
-    height: tall
-    topGap: medium
-    bottomGap: medium
-    contentWidth: large
-    contentAlignHoriz: left
-    contentAlignVert: middle
-    textAlign: left
-    variant: variant-a
-    badge:
-      elementId: ''
-      label: lorem-ipsum
-    title: lorem-ipsum
-    text: >-
-      ## Lorem ipsum
-
-
-      Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-      - Lorem ipsum
-
-      - dolor sit amet
-    actions:
-      - elementId: ''
-        label: lorem-ipsum
-        altText: lorem-ipsum
-        url: '#'
-        showIcon: false
-        icon: arrowLeft
-        iconPosition: right
-        style: secondary
-        type: Button
-    feature:
-      idAttr: lorem-ipsum
-      action: lorem-ipsum
-      destination: lorem-ipsum
-      fields: []
-      submitLabel: lorem-ipsum
-      type: FormBlock
-    backgroundImage:
-      elementId: ''
-      altText: lorem-ipsum
-      caption: lorem-ipsum
-      opacity: 100
-      type: ImageBlock
-    type: HeroSection
   - type: ContactSection
     variant: variant-b
     colors: colors-h
