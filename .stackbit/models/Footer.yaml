@@ -51,8 +51,8 @@ fields:
     default:
       default:
       type: ImageBlock
-      url: 
-      altText: ""
+      url: "images/logo.svg"
+      altText: "Your logo image"
       caption: ""
   - type: string
     name: title
@@ -78,15 +78,15 @@ fields:
       models:
         - Button
         - Link
-      default:
-        - type: Link
-          label: Partners
-          url: ""
-          altText: Partners
-        - type: Link
-          label: Documentation
-          url: /
-          altText: Documentation
+    default:
+      - type: Link
+        label: Partners
+        url: /
+        altText: Partners
+      - type: Link
+        label: Documentation
+        url: /
+        altText: Documentation
   - type: list
     name: socialLinks
     label: Social links
@@ -94,13 +94,19 @@ fields:
       type: model
       models:
         - Social
-      default:
-        - type: facebook
-          label: ""
-          altText: facebook
-          url: /
-          elementId: false
-          showIcon: true
+    default:
+      - type: facebook
+        label: ""
+        altText: facebook
+        url: /
+        elementId: false
+        showIcon: true
+      - type: twitter
+        label: ""
+        altText: twitter
+        url: /
+        elementId: false
+        showIcon: true
   - type: list
     name: legalLinks
     label: Legal navigation links
@@ -109,15 +115,15 @@ fields:
       models:
         - Button
         - Link
-      default:
-        - type: Link
-          label: Privacy Policy
-          url: /
-          altText: Privacy Policy
-        - type: Link
-          label: Terms & Conditions
-          url: /
-          altText: Terms & Conditions
+    default:
+      - type: Link
+        label: Privacy Policy
+        url: /
+        altText: Privacy Policy
+      - type: Link
+        label: Terms & Conditions
+        url: /
+        altText: Terms & Conditions
   - type: style
     name: styles
     styles:
