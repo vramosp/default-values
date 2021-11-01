@@ -57,7 +57,8 @@ fields:
   - type: string
     name: title
     label: Title
-    default: Your brand
+    isTitleVisible: true
+    default: Personal
   - type: markdown
     name: text
     label: Text
@@ -67,11 +68,10 @@ fields:
     label: Contacts
     models: [ContactBlock]
     default:
-      - type: contacts
-        phoneNumber: "850-123-5021"
-        phoneAltText: "Call me"
-        email: "john@doe.com"
-        emailAltText: "Email me"
+      phoneNumber: "850-123-5021"
+      phoneAltText: "Call me"
+      email: "john@doe.com"
+      emailAltText: "Email me"
   - type: markdown
     name: copyrightText
     label: Copyright text
