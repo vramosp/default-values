@@ -57,8 +57,11 @@ fields:
   - type: string
     name: title
     label: Title
-    isTitleVisible: true
     default: Personal
+  - type: boolean
+    name: isTitleVisible
+    label: isTitleVisible
+    label: true
   - type: markdown
     name: text
     label: Text
