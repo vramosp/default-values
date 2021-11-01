@@ -58,10 +58,6 @@ fields:
     name: title
     label: Title
     default: Personal
-  - type: boolean
-    name: isTitleVisible
-    label: isTitleVisible
-    label: true
   - type: markdown
     name: text
     label: Text
